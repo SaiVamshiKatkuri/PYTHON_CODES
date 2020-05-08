@@ -7,7 +7,7 @@ def longest_string(s):
          l=len(i)
          if l>max:
              max=l
-             max_word=i
+             
     #logic to print the max letter words
      for i in a:
          if len(i)==max:
