@@ -3,7 +3,6 @@
 import csv
 with open('matches.csv') as csv_file:
      matches = csv.reader(csv_file, delimiter=',')
-     d={}
      l=[]
      line_c=0
      for row in matches:
